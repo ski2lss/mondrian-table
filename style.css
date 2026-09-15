@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.mondrian {
+  width: 700px;
+  height: 800px;
+  margin: 50px auto;
+  border: 8px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.mondrian td {
+  padding: 0;
+  border: 8px solid black;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.top-1 {
+  width: 24%;
+}
+
+.top-2 {
+  width: 39%;
+}
+
+.top-3 {
+  width: 32%;
+}
+
+.top-4 {
+  width: 5%;
+}
+
+.row-1 td {
+  height: 100px;
+}
+
+.row-2 td {
+  height: 200px;
+}
+
+.row-3 td {
+  height: 200px;
+}
+
+.row-4 td {
+  height: 100px;
+}
+
+.row-5 td {
+  height: 100px;
+}
+
+.row-6 td {
+  height: 60px;
+}
+
+.row-7 td {
+  height: 40px;
+}
